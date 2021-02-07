@@ -4,6 +4,7 @@
     <meta charset='UTF-8'/>
     <meta name='viewport'
       content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <title>Khloe's Closet</title>
     <link rel='stylesheet' href='styles.css'/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -11,22 +12,55 @@
   </head>
   <body>
     <header class="header">
-      <a href="" class="logo">Khloe's Closet</a>
-      <input class="menu-btn" type="checkbox" id="menu-btn" />
-      <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-      <ul class="menu">
-        <li><a href="#menu">Clothing</a></li>
-        <li><a href="#order">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Khloe's Closet</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="clothing.html">Clothing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
 
-    <p>Hi!  My name is Khloe and this is my closet!  You're probably wondering what this website is all about.
-      Well, let me explain.  This project originally started as a simple way for me to clean out my closet and get rid of all
-      the clothes that I was no longer wearing.  I'd post the articles of clothing on my Insta and then sell them to whoever commented first.
-      It has sense evolved into what it is today - a thrifting website!</p>
-    <p>Still don't get it?  Basically, I do all of the hard work of digging through the old, grungy clothes that you
-      find at typical thrift stores, to find the few hidden gems.  Then I gather all of my finds here, just for you.
-      Now you can find all of your favorite brands at thrifted prices without any of the hassel.  Enjoy!</p>
+    <div class="photo">
+      <img src="/images/aboutheader.png" class="img-fluid">
+      <div class="aboutcontent">
+        <div class="column">
+          <img id="khloepic" src="/images/khloe.jpg" class="img-fluid">
+        </div>
+        <div class="column">
+          <h4>Hi!  My name is Khloe and this is my closet!  You're probably wondering what this website is all about.
+          Well, let me explain.  This project originally started as a simple way for me to clean out my closet and get rid of all
+          the clothes that I was no longer wearing.  I'd post the articles of clothing on my Insta and then sell them to whoever commented first.
+          It has sense evolved into what it is today - a thrifting website!</h4>
+          <h4>Still don't get it?  Basically, I do all of the hard work of digging through the old, grungy clothes that you
+          find at typical thrift stores, to find the few hidden gems.  Then I gather all of my finds here, just for you.
+          Now you can find all of your favorite brands at thrifted prices without any of the hassle.  Enjoy!</h4>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class='footer'>
+      <div class='footer-item'>
+        <a href="https://github.com/ashtyntaylor/creative-project-1">Github Repository</a>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
   </body>
 </html>

@@ -4,6 +4,7 @@
     <meta charset='UTF-8'/>
     <meta name='viewport'
       content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <title>Khloe's Closet</title>
     <link rel='stylesheet' href='styles.css'/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -11,14 +12,123 @@
   </head>
   <body>
     <header class="header">
-      <a href="" class="logo">Khloe's Closet</a>
-      <input class="menu-btn" type="checkbox" id="menu-btn" />
-      <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-      <ul class="menu">
-        <li><a href="#menu">Clothing</a></li>
-        <li><a href="#order">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Khloe's Closet</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="clothing.html">Clothing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
+
+    <div class="photo">
+      <img src="/images/clothingheader.png" class="img-fluid">
+    </div>
+
+    <div class="clothing row">
+      <div class="clothes col-md col-lg">
+        <img src="/images/jeans1.jpg" class="img-fluid">
+        <div class="name">
+          <h4>Retro Jeans</h4>
+        </div>
+        <div class="price">
+          <p>$10.00</p>
+        </div>
+      </div>
+      <div class="clothes col-md col-lg">
+        <img src="/images/skirt1.jpg" class="img-fluid">
+        <div class="name">
+          <h4>Plaid Skirt</h4>
+        </div>
+        <div class="price">
+          <p>$6.00</p>
+        </div>
+      </div>
+      <div class="clothes col-md col-lg">
+        <img src="/images/shirt3.jpg" class="img-fluid">
+        <div class="name">
+          <h4>Knotted Top</h4>
+        </div>
+        <div class="price">
+          <p>$3.00</p>
+        </div>
+      </div>
+      <div class="clothes col-md col-lg">
+        <img src="/images/jeans2.jpg" class="img-fluid">
+        <div class="name">
+          <h4>Classic Mom Jeans</h4>
+        </div>
+        <div class="price">
+          <p>$10.00</p>
+        </div>
+      </div>
+      <div class="clothes col-md col-lg">
+        <img src="/images/shirt2.jpg" class="img-fluid">
+        <div class="name">
+          <h4>Orange Long-Sleeve</h4>
+        </div>
+        <div class="price">
+          <p>$5.00</p>
+        </div>
+      </div>
+      <div class="clothes col-md col-lg">
+        <img src="/images/pants.jpg" class="img-fluid">
+        <div class="name">
+          <h4>Plaid Pants</h4>
+        </div>
+        <div class="price">
+          <p>$15.00</p>
+        </div>
+      </div>
+      <div class="clothes col-md col-lg">
+        <img src="/images/shoes1.jpg" class="img-fluid">
+        <div class="name">
+          <h4>Vintage Vans</h4>
+        </div>
+        <div class="price">
+          <p>$15.00</p>
+        </div>
+      </div>
+      <div class="clothes col-md col-lg">
+        <img src="/images/shirt1.jpg" class="img-fluid">
+        <div class="name">
+          <h4>Pizza Planet Tee</h4>
+        </div>
+        <div class="price">
+          <p>$10.00</p>
+        </div>
+      </div>
+      <div class="clothes col-md col-lg">
+        <img src="/images/shirt4.jpg" class="img-fluid">
+        <div class="name">
+          <h4>Polka Dot Blouse</h4>
+        </div>
+        <div class="price">
+          <p>$8.00</p>
+        </div>
+      </div>
+    </div>
+
+    <div class='footer'>
+      <div class='footer-item'>
+        <a href="https://github.com/ashtyntaylor/creative-project-1">Github Repository</a>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
   </body>
 </html>
